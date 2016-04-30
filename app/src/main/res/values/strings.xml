@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">WeatherApp</string>
     <string name="hello_city">Hello %1$s!</string>
+    <string name="degrees_fahr">%1$s\u2109</string>
 </resources>
