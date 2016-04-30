@@ -9,9 +9,33 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.codetank.weatherapp.MainActivity">
 
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/swi_sunnya_cloud"
+        android:id="@+id/weatherIcon"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="60sp"
+        android:textStyle="bold"
+        android:text="70\u2109"
+        android:id="@+id/temp"
+        android:layout_below="@+id/weatherIcon"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="36dp" />
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello CodeTank!"
-        android:textColor="@color/colorAccent"/>
+        android:text="@string/hello_city"
+        android:textSize="25sp"
+        android:id="@+id/locale"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true" />
 </RelativeLayout>
